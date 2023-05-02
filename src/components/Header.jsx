@@ -35,8 +35,9 @@ const Header = () => {
           <div
             onClick={hideMenu}
             className={
-              showMenu &&
-              "absolute top-0 right-0 w-full h-[100vh] bg-[rgba(0,0,0,0.5)] transition-all duration-700"
+              showMenu
+                ? "absolute top-0 right-0 w-full h-[100vh] bg-[rgba(0,0,0,0.5)] transition-all duration-700"
+                : ""
             }
           />
           {/* desktop */}
@@ -100,7 +101,7 @@ const Header = () => {
           {/* mobile */}
           <div className="absolute right-6 top-6 md:hidden ">
             <HiOutlineMenuAlt3
-              className="text-2xl cursor-pointer"
+              className="text-5xl cursor-pointer"
               onClick={toggleMenu}
             />
           </div>

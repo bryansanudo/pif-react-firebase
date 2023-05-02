@@ -55,7 +55,10 @@ p {
   color: purple;
 }
 
-
+.img {
+  animation: slide-down 0.5s ease;
+ 
+}
 
   
 

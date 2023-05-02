@@ -2,6 +2,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "@/components/Header";
 import Home from "@/pages/Home";
 import Contact from "@/pages/Contact";
+import Login from "@/pages/auth/Login";
+import Register from "@/pages/auth/Register";
+import Reset from "@/pages/auth/Reset";
+
 const App = () => {
   return (
     <>
@@ -10,6 +14,9 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/reset" element={<Reset />} />
         </Routes>
       </BrowserRouter>
     </>
