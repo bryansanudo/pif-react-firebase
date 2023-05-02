@@ -26,7 +26,7 @@ const Header = () => {
         <div className="text-white w-[20%]">
           <Link to="/">
             <h2>
-              e<span className="text-orange-500">Shop</span>.
+              e<span className="text-primary">Shop</span>.
             </h2>
           </Link>
         </div>
@@ -44,29 +44,29 @@ const Header = () => {
 
           <div className="hidden md:flex justify-between mx-10">
             <ul className="flex gap-6 text-2xl mr-6">
-              <li className="hover:text-red-500 hover:scale-105 duration-400">
+              <li className="hover:text-primary hover:scale-105 duration-400">
                 <NavLink className={activeLink} to="/">
                   Home
                 </NavLink>
               </li>
-              <li className="hover:text-red-500 hover:scale-105 duration-400">
+              <li className="hover:text-primary hover:scale-105 duration-400">
                 <NavLink className={activeLink} to="/contact">
                   Contact Us
                 </NavLink>
               </li>
-              <li className="hover:text-red-500 hover:scale-105 duration-400">
+              <li className="hover:text-primary hover:scale-105 duration-400">
                 <NavLink className={activeLink} to="/login">
                   Login
                 </NavLink>
               </li>
-              <li className="hover:text-red-500 hover:scale-105 duration-400">
+              <li className="hover:text-primary hover:scale-105 duration-400">
                 <NavLink className={activeLink} to="/register">
                   Resgister
                 </NavLink>
               </li>
             </ul>
             <ul className="flex gap-6 text-2xl ">
-              <li className="hover:text-red-500 hover:scale-105 duration-400">
+              <li className="hover:text-primary hover:scale-105 duration-400">
                 <NavLink className={activeLink} to="/user-profile">
                   <div className="flex items-center gap-2">
                     <FaUserCircle size={22} />
@@ -74,19 +74,19 @@ const Header = () => {
                   </div>
                 </NavLink>
               </li>
-              <li className="hover:text-red-500 hover:scale-105 duration-400">
+              <li className="hover:text-primary hover:scale-105 duration-400">
                 <NavLink className={activeLink} to="/order-history">
                   My Orders
                 </NavLink>
               </li>
-              <li className="hover:text-red-500 hover:scale-105 duration-400">
+              <li className="hover:text-primary hover:scale-105 duration-400">
                 <NavLink className={activeLink} to="/logout">
                   Logout
                 </NavLink>
               </li>
-              <li className="hover:text-red-500 hover:scale-105 duration-400">
+              <li className="hover:text-primary hover:scale-105 duration-400">
                 <NavLink className={activeLink} to="/cart">
-                  <span className="flex gap-2 text-white relative hover:text-red-500 active:text-blue-500 ">
+                  <span className="flex gap-2 text-white relative hover:text-primary active:text-blue-500 ">
                     Cart
                     <FaShoppingCart size={20} />
                     <p className="absolute top-[-1rem] right-[-1rem] font-medium text-white">
@@ -124,21 +124,21 @@ const Header = () => {
                 </Link>
               </li>
               <NavLink className={activeLink} to="/">
-                <li className="hover:text-red-500  duration-400">Home</li>
+                <li className="hover:text-primary  duration-400">Home</li>
               </NavLink>
               <NavLink className={activeLink} to="/contact">
-                <li className="hover:text-red-500  duration-400">Contact Us</li>
+                <li className="hover:text-primary  duration-400">Contact Us</li>
               </NavLink>
               <NavLink className={activeLink} to="/login">
-                <li className="hover:text-red-500  duration-400">Login</li>
+                <li className="hover:text-primary  duration-400">Login</li>
               </NavLink>
               <NavLink className={activeLink} to="/register">
-                <li className="hover:text-red-500  duration-400">Resgister</li>
+                <li className="hover:text-primary  duration-400">Resgister</li>
               </NavLink>
             </ul>
             <ul className="flex flex-col gap-6 text-2xl" onClick={hideMenu}>
               <NavLink className={activeLink} to="/user-profile">
-                <li className="hover:text-red-500  duration-400">
+                <li className="hover:text-primary  duration-400">
                   <div className="flex items-center gap-2">
                     <FaUserCircle size={22} />
                     <span>Hi, hola</span>
@@ -146,14 +146,14 @@ const Header = () => {
                 </li>
               </NavLink>
               <NavLink className={activeLink} to="/order-history">
-                <li className="hover:text-red-500  duration-400">My Orders</li>
+                <li className="hover:text-primary  duration-400">My Orders</li>
               </NavLink>
               <NavLink className={activeLink} to="/logout">
-                <li className="hover:text-red-500  duration-400">Logout</li>
+                <li className="hover:text-primary  duration-400">Logout</li>
               </NavLink>
-              <li className="hover:text-red-500  duration-400">
+              <li className="hover:text-primary  duration-400">
                 <NavLink className={activeLink} to="/cart">
-                  <span className="flex gap-2 text-white relative hover:text-red-500 active:text-blue-500 ">
+                  <span className="flex gap-2 text-white relative hover:text-primary active:text-blue-500 ">
                     Cart
                     <FaShoppingCart size={20} />
                     <p className="absolute top-[-1rem] left-[6rem] font-medium text-white">
